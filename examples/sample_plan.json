@@ -1,0 +1,917 @@
+{
+  "generated_at": "2026-10-12T11:26:28",
+  "profile": {
+    "key": "elderly",
+    "label": "长辈/适老化",
+    "reasons": "长辈普遍怕辣、怕冰、牙口较弱，且带骨带刺食物容易噎住；套餐整体钠摄入需留意。"
+  },
+  "window": {
+    "hour": 11,
+    "date": "2026-10-12",
+    "window": "正餐/午餐",
+    "tip": "适合安排一份主食+热饮的完整套餐。",
+    "source": "now-time-info"
+  },
+  "store": {
+    "storeCode": "3350332",
+    "storeName": "麦当劳济南大明湖南门IS餐厅",
+    "businessHours": "07:00-23:00",
+    "businessStatus": true
+  },
+  "orderParams": {
+    "storeCode": "3350332",
+    "orderType": 1,
+    "beType": 1
+  },
+  "filters": {
+    "avoidTags": [
+      "辣",
+      "冰/冷",
+      "难嚼/脆硬",
+      "带骨/带刺"
+    ],
+    "budgetYuan": null,
+    "maxSodiumMg": null
+  },
+  "counts": {
+    "menuTotal": 109,
+    "kept": 45,
+    "excluded": 64
+  },
+  "excludedSample": [
+    {
+      "code": "1100",
+      "name": "巨无霸",
+      "reasons": [
+        "含带骨/带刺"
+      ]
+    },
+    {
+      "code": "1106",
+      "name": "培根蔬萃双层牛堡",
+      "reasons": [
+        "含带骨/带刺"
+      ]
+    },
+    {
+      "code": "1120",
+      "name": "双层吉士汉堡",
+      "reasons": [
+        "含带骨/带刺"
+      ]
+    },
+    {
+      "code": "1440",
+      "name": "麦辣鸡腿汉堡",
+      "reasons": [
+        "含辣",
+        "含难嚼/脆硬"
+      ]
+    },
+    {
+      "code": "1600",
+      "name": "麦香鱼",
+      "reasons": [
+        "含带骨/带刺"
+      ]
+    },
+    {
+      "code": "1700",
+      "name": "麦辣鸡翅",
+      "reasons": [
+        "含辣",
+        "含难嚼/脆硬",
+        "含带骨/带刺"
+      ]
+    },
+    {
+      "code": "2430",
+      "name": "【美汁源】“黄金橙橙”",
+      "reasons": [
+        "含冰/冷"
+      ]
+    },
+    {
+      "code": "3010",
+      "name": "雪碧",
+      "reasons": [
+        "含冰/冷"
+      ]
+    },
+    {
+      "code": "3755",
+      "name": "纯牛奶(盒装)",
+      "reasons": [
+        "含冰/冷"
+      ]
+    },
+    {
+      "code": "4648",
+      "name": "不素之霸双层牛堡",
+      "reasons": [
+        "含带骨/带刺"
+      ]
+    }
+  ],
+  "plans": [
+    {
+      "id": "方案A",
+      "headline": "套餐、好拿、软｜板烧鸡腿堡三件套",
+      "itemCode": "9900005462",
+      "lines": [
+        "板烧鸡腿堡三件套（默认搭配）",
+        "里面有 板烧鸡腿堡、中薯条 和 可乐中杯。",
+        "价格 ¥34.5，合计约 827 千卡 / 钠约 1206 毫克",
+        "注意：整份钠已超过成人全天建议上限(2000mg)的一半，建议搭配白水、少蘸酱"
+      ],
+      "swapOptions": [
+        {
+          "round": "选择套餐内小食",
+          "name": "小杯玉米杯",
+          "diffPrice": "- ¥1.5",
+          "code": "4437"
+        },
+        {
+          "round": "选择套餐内饮料",
+          "name": "无糖可口可乐中杯",
+          "diffPrice": "+ ¥0",
+          "code": "3071"
+        },
+        {
+          "round": "选择套餐内饮料",
+          "name": "雪碧中杯",
+          "diffPrice": "+ ¥0",
+          "code": "3060"
+        }
+      ],
+      "priceYuan": 34.5,
+      "withinBudget": null,
+      "windowTip": "适合安排一份主食+热饮的完整套餐。"
+    },
+    {
+      "id": "方案B",
+      "headline": "套餐｜麦香鸡套餐",
+      "itemCode": "9900005453",
+      "lines": [
+        "麦香鸡套餐（默认搭配）",
+        "里面有 麦香鸡、中薯条 和 可乐中杯。",
+        "价格 ¥27.5，合计约 805 千卡 / 钠约 896 毫克"
+      ],
+      "swapOptions": [
+        {
+          "round": "选择套餐内小食",
+          "name": "小杯玉米杯",
+          "diffPrice": "- ¥1.5",
+          "code": "4437"
+        },
+        {
+          "round": "选择套餐内饮料",
+          "name": "无糖可口可乐中杯",
+          "diffPrice": "+ ¥0",
+          "code": "3071"
+        },
+        {
+          "round": "选择套餐内饮料",
+          "name": "雪碧中杯",
+          "diffPrice": "+ ¥0",
+          "code": "3060"
+        }
+      ],
+      "priceYuan": 27.5,
+      "withinBudget": null,
+      "windowTip": "适合安排一份主食+热饮的完整套餐。"
+    },
+    {
+      "id": "方案C",
+      "headline": "儿童、好拿、软｜汉堡开心乐园餐",
+      "itemCode": "9900016057",
+      "lines": [
+        "汉堡开心乐园餐（默认搭配）",
+        "里面有 汉堡包、迷你薯条、小杯玉米杯、纯牛奶 和 海绵宝宝×航海王系列玩具。",
+        "价格 ¥23.5，已知 4/5 项合计约 536 千卡（部分子项未匹配到官方营养数据，非整份真实合计）"
+      ],
+      "swapOptions": [
+        {
+          "round": "选择开心乐园餐饮料",
+          "name": "100%苹果汁",
+          "diffPrice": "+ ¥0",
+          "code": "6362"
+        }
+      ],
+      "priceYuan": 23.5,
+      "withinBudget": null,
+      "windowTip": "适合安排一份主食+热饮的完整套餐。"
+    }
+  ],
+  "candidates": [
+    {
+      "code": "9900006957",
+      "name": "安格斯厚牛堡四件套随心选",
+      "priceYuan": 37.0,
+      "originalPriceYuan": 66.5,
+      "categories": [
+        "精选单人餐"
+      ],
+      "shopTags": [
+        "麦金卡"
+      ],
+      "derivedTags": [
+        "套餐",
+        "好拿",
+        "软"
+      ],
+      "tags_are_derived": true,
+      "nutrition": {
+        "available": false,
+        "note": "官方营养库未匹配到该品项，本引擎不做估算。"
+      },
+      "comboNutritionAggregate": null,
+      "composition": "",
+      "swapOptions": [],
+      "hasDetail": false
+    },
+    {
+      "code": "9900008746",
+      "name": "鸡肉堡单品精选",
+      "priceYuan": 23.5,
+      "originalPriceYuan": 23.5,
+      "categories": [
+        "鸡肉汉堡/卷"
+      ],
+      "shopTags": [
+        "单品",
+        "人气"
+      ],
+      "derivedTags": [
+        "好拿",
+        "软"
+      ],
+      "tags_are_derived": true,
+      "nutrition": {
+        "available": false,
+        "note": "官方营养库未匹配到该品项，本引擎不做估算。"
+      },
+      "comboNutritionAggregate": null,
+      "composition": "",
+      "swapOptions": [],
+      "hasDetail": false
+    },
+    {
+      "code": "9900015602",
+      "name": "大堡口福三件套",
+      "priceYuan": 22.9,
+      "originalPriceYuan": 48.0,
+      "categories": [
+        "大堡口福单人餐"
+      ],
+      "shopTags": [
+        "大口吃肉好快乐"
+      ],
+      "derivedTags": [
+        "套餐",
+        "好拿",
+        "软"
+      ],
+      "tags_are_derived": true,
+      "nutrition": {
+        "available": false,
+        "note": "官方营养库未匹配到该品项，本引擎不做估算。"
+      },
+      "comboNutritionAggregate": null,
+      "composition": "",
+      "swapOptions": [],
+      "hasDetail": false
+    },
+    {
+      "code": "1406",
+      "name": "板烧鸡腿堡",
+      "priceYuan": 23.5,
+      "originalPriceYuan": 23.5,
+      "categories": [
+        "鸡肉汉堡/卷"
+      ],
+      "shopTags": [
+        "单品",
+        "板烧滋滋",
+        "多汁惹味"
+      ],
+      "derivedTags": [
+        "好拿",
+        "软"
+      ],
+      "tags_are_derived": true,
+      "nutrition": {
+        "available": true,
+        "match_type": "exact",
+        "kcal": 391.0,
+        "protein_g": 23.0,
+        "fat_g": 17.0,
+        "carbohydrate_g": 35.0,
+        "sodium_mg": 1041.0,
+        "calcium_mg": 93.0,
+        "sodium_level": "钠偏高",
+        "sodium_reason": "单份钠占成人全天建议上限(2000mg)的 40% 以上"
+      },
+      "comboNutritionAggregate": null,
+      "composition": "",
+      "swapOptions": [],
+      "hasDetail": false
+    },
+    {
+      "code": "511781",
+      "name": "培根安格斯厚牛堡",
+      "priceYuan": 34.5,
+      "originalPriceYuan": 34.5,
+      "categories": [
+        "安格斯MAX厚牛堡"
+      ],
+      "shopTags": [
+        "单品",
+        "100%安格斯牛肉"
+      ],
+      "derivedTags": [
+        "好拿",
+        "软"
+      ],
+      "tags_are_derived": true,
+      "nutrition": {
+        "available": true,
+        "match_type": "exact",
+        "kcal": 707.0,
+        "protein_g": 34.0,
+        "fat_g": 44.0,
+        "carbohydrate_g": 43.0,
+        "sodium_mg": 1037.0,
+        "calcium_mg": 161.0,
+        "sodium_level": "钠偏高",
+        "sodium_reason": "单份钠占成人全天建议上限(2000mg)的 40% 以上"
+      },
+      "comboNutritionAggregate": null,
+      "composition": "",
+      "swapOptions": [],
+      "hasDetail": false
+    },
+    {
+      "code": "511782",
+      "name": "芝士安格斯厚牛堡",
+      "priceYuan": 31.5,
+      "originalPriceYuan": 31.5,
+      "categories": [
+        "安格斯MAX厚牛堡"
+      ],
+      "shopTags": [
+        "单品",
+        "100%安格斯牛肉"
+      ],
+      "derivedTags": [
+        "好拿",
+        "软"
+      ],
+      "tags_are_derived": true,
+      "nutrition": {
+        "available": true,
+        "match_type": "exact",
+        "kcal": 696.0,
+        "protein_g": 32.0,
+        "fat_g": 44.0,
+        "carbohydrate_g": 43.0,
+        "sodium_mg": 897.0,
+        "calcium_mg": 150.0,
+        "sodium_level": "钠偏高",
+        "sodium_reason": "单份钠占成人全天建议上限(2000mg)的 40% 以上"
+      },
+      "comboNutritionAggregate": null,
+      "composition": "",
+      "swapOptions": [],
+      "hasDetail": false
+    },
+    {
+      "code": "9900000881",
+      "name": "培根安格斯厚牛堡四件套",
+      "priceYuan": 37.0,
+      "originalPriceYuan": 66.5,
+      "categories": [
+        "安格斯MAX厚牛堡"
+      ],
+      "shopTags": [
+        "麦金卡"
+      ],
+      "derivedTags": [
+        "套餐",
+        "好拿",
+        "软"
+      ],
+      "tags_are_derived": true,
+      "nutrition": {
+        "available": true,
+        "match_type": "fuzzy",
+        "kcal": 707.0,
+        "protein_g": 34.0,
+        "fat_g": 44.0,
+        "carbohydrate_g": 43.0,
+        "sodium_mg": 1037.0,
+        "calcium_mg": 161.0,
+        "sodium_level": "钠偏高",
+        "sodium_reason": "单份钠占成人全天建议上限(2000mg)的 40% 以上"
+      },
+      "comboNutritionAggregate": null,
+      "composition": "",
+      "swapOptions": [],
+      "hasDetail": false
+    },
+    {
+      "code": "9900000882",
+      "name": "芝士安格斯厚牛堡四件套",
+      "priceYuan": 37.0,
+      "originalPriceYuan": 66.5,
+      "categories": [
+        "安格斯MAX厚牛堡"
+      ],
+      "shopTags": [
+        "麦金卡"
+      ],
+      "derivedTags": [
+        "套餐",
+        "好拿",
+        "软"
+      ],
+      "tags_are_derived": true,
+      "nutrition": {
+        "available": true,
+        "match_type": "fuzzy",
+        "kcal": 696.0,
+        "protein_g": 32.0,
+        "fat_g": 44.0,
+        "carbohydrate_g": 43.0,
+        "sodium_mg": 897.0,
+        "calcium_mg": 150.0,
+        "sodium_level": "钠偏高",
+        "sodium_reason": "单份钠占成人全天建议上限(2000mg)的 40% 以上"
+      },
+      "comboNutritionAggregate": null,
+      "composition": "",
+      "swapOptions": [],
+      "hasDetail": false
+    },
+    {
+      "code": "9900000890",
+      "name": "板烧鸡腿堡四件套",
+      "priceYuan": 28.0,
+      "originalPriceYuan": 57.5,
+      "categories": [
+        "鸡肉汉堡/卷"
+      ],
+      "shopTags": [
+        "麦金卡"
+      ],
+      "derivedTags": [
+        "套餐",
+        "好拿",
+        "软"
+      ],
+      "tags_are_derived": true,
+      "nutrition": {
+        "available": true,
+        "match_type": "fuzzy",
+        "kcal": 391.0,
+        "protein_g": 23.0,
+        "fat_g": 17.0,
+        "carbohydrate_g": 35.0,
+        "sodium_mg": 1041.0,
+        "calcium_mg": 93.0,
+        "sodium_level": "钠偏高",
+        "sodium_reason": "单份钠占成人全天建议上限(2000mg)的 40% 以上"
+      },
+      "comboNutritionAggregate": null,
+      "composition": "",
+      "swapOptions": [],
+      "hasDetail": false
+    },
+    {
+      "code": "9900004066",
+      "name": "堡堡随心拼（7件任选）",
+      "priceYuan": 72.5,
+      "originalPriceYuan": 104.0,
+      "categories": [
+        "小食拼盘/多人餐"
+      ],
+      "shopTags": [
+        "小食拼盘",
+        "万种组合"
+      ],
+      "derivedTags": [
+        "套餐",
+        "好拿",
+        "软"
+      ],
+      "tags_are_derived": true,
+      "nutrition": {
+        "available": false,
+        "note": "官方营养库未匹配到该品项，本引擎不做估算。"
+      },
+      "comboNutritionAggregate": null,
+      "composition": "",
+      "swapOptions": [],
+      "hasDetail": false
+    },
+    {
+      "code": "9900005462",
+      "name": "板烧鸡腿堡三件套",
+      "priceYuan": 34.5,
+      "originalPriceYuan": 48.0,
+      "categories": [
+        "鸡肉汉堡/卷"
+      ],
+      "shopTags": [
+        "套餐",
+        "新升级",
+        "更多汁"
+      ],
+      "derivedTags": [
+        "套餐",
+        "好拿",
+        "软"
+      ],
+      "tags_are_derived": true,
+      "nutrition": {
+        "available": true,
+        "match_type": "fuzzy",
+        "kcal": 391.0,
+        "protein_g": 23.0,
+        "fat_g": 17.0,
+        "carbohydrate_g": 35.0,
+        "sodium_mg": 1041.0,
+        "calcium_mg": 93.0,
+        "sodium_level": "钠偏高",
+        "sodium_reason": "单份钠占成人全天建议上限(2000mg)的 40% 以上"
+      },
+      "comboNutritionAggregate": {
+        "kcal": 827.0,
+        "sodium_mg": 1206.0,
+        "protein_g": 27.0,
+        "fat_g": 29.0,
+        "carbohydrate_g": 109.0,
+        "calcium_mg": 121.0,
+        "components_total": 3,
+        "components_matched": 3,
+        "coverage": "全部匹配",
+        "matched_all": true,
+        "matched_count": 3
+      },
+      "composition": "里面有 板烧鸡腿堡、中薯条 和 可乐中杯。",
+      "swapOptions": [
+        {
+          "round": "选择套餐内小食",
+          "name": "小杯玉米杯",
+          "diffPrice": "- ¥1.5",
+          "code": "4437"
+        },
+        {
+          "round": "选择套餐内饮料",
+          "name": "无糖可口可乐中杯",
+          "diffPrice": "+ ¥0",
+          "code": "3071"
+        },
+        {
+          "round": "选择套餐内饮料",
+          "name": "雪碧中杯",
+          "diffPrice": "+ ¥0",
+          "code": "3060"
+        }
+      ],
+      "hasDetail": true
+    },
+    {
+      "code": "9900005428",
+      "name": "培根安格斯厚牛堡三件套",
+      "priceYuan": 45.5,
+      "originalPriceYuan": 59.0,
+      "categories": [
+        "安格斯MAX厚牛堡"
+      ],
+      "shopTags": [
+        "套餐",
+        "100%安格斯牛肉"
+      ],
+      "derivedTags": [
+        "套餐",
+        "好拿",
+        "软"
+      ],
+      "tags_are_derived": true,
+      "nutrition": {
+        "available": true,
+        "match_type": "fuzzy",
+        "kcal": 707.0,
+        "protein_g": 34.0,
+        "fat_g": 44.0,
+        "carbohydrate_g": 43.0,
+        "sodium_mg": 1037.0,
+        "calcium_mg": 161.0,
+        "sodium_level": "钠偏高",
+        "sodium_reason": "单份钠占成人全天建议上限(2000mg)的 40% 以上"
+      },
+      "comboNutritionAggregate": null,
+      "composition": "",
+      "swapOptions": [],
+      "hasDetail": false
+    },
+    {
+      "code": "9900005430",
+      "name": "芝士安格斯厚牛堡三件套",
+      "priceYuan": 42.5,
+      "originalPriceYuan": 56.0,
+      "categories": [
+        "安格斯MAX厚牛堡"
+      ],
+      "shopTags": [
+        "套餐",
+        "100%安格斯牛肉"
+      ],
+      "derivedTags": [
+        "套餐",
+        "好拿",
+        "软"
+      ],
+      "tags_are_derived": true,
+      "nutrition": {
+        "available": true,
+        "match_type": "fuzzy",
+        "kcal": 696.0,
+        "protein_g": 32.0,
+        "fat_g": 44.0,
+        "carbohydrate_g": 43.0,
+        "sodium_mg": 897.0,
+        "calcium_mg": 150.0,
+        "sodium_level": "钠偏高",
+        "sodium_reason": "单份钠占成人全天建议上限(2000mg)的 40% 以上"
+      },
+      "comboNutritionAggregate": null,
+      "composition": "",
+      "swapOptions": [],
+      "hasDetail": false
+    },
+    {
+      "code": "9900005453",
+      "name": "麦香鸡套餐",
+      "priceYuan": 27.5,
+      "originalPriceYuan": 41.0,
+      "categories": [
+        "鸡肉汉堡/卷"
+      ],
+      "shopTags": [
+        "套餐",
+        "立省10.5元起"
+      ],
+      "derivedTags": [
+        "套餐"
+      ],
+      "tags_are_derived": true,
+      "nutrition": {
+        "available": true,
+        "match_type": "fuzzy",
+        "kcal": 369.0,
+        "protein_g": 15.0,
+        "fat_g": 17.0,
+        "carbohydrate_g": 39.0,
+        "sodium_mg": 731.0,
+        "calcium_mg": 73.0,
+        "sodium_level": "钠含量一般"
+      },
+      "comboNutritionAggregate": {
+        "kcal": 805.0,
+        "sodium_mg": 896.0,
+        "protein_g": 19.0,
+        "fat_g": 29.0,
+        "carbohydrate_g": 113.0,
+        "calcium_mg": 101.0,
+        "components_total": 3,
+        "components_matched": 3,
+        "coverage": "全部匹配",
+        "matched_all": true,
+        "matched_count": 3
+      },
+      "composition": "里面有 麦香鸡、中薯条 和 可乐中杯。",
+      "swapOptions": [
+        {
+          "round": "选择套餐内小食",
+          "name": "小杯玉米杯",
+          "diffPrice": "- ¥1.5",
+          "code": "4437"
+        },
+        {
+          "round": "选择套餐内饮料",
+          "name": "无糖可口可乐中杯",
+          "diffPrice": "+ ¥0",
+          "code": "3071"
+        },
+        {
+          "round": "选择套餐内饮料",
+          "name": "雪碧中杯",
+          "diffPrice": "+ ¥0",
+          "code": "3060"
+        }
+      ],
+      "hasDetail": true
+    },
+    {
+      "code": "4437",
+      "name": "玉米杯",
+      "priceYuan": 13.0,
+      "originalPriceYuan": 13.0,
+      "categories": [
+        "小食甜品/其他"
+      ],
+      "shopTags": [
+        "小食"
+      ],
+      "derivedTags": [
+        "需餐具",
+        "软",
+        "热"
+      ],
+      "tags_are_derived": true,
+      "nutrition": {
+        "available": true,
+        "match_type": "fuzzy",
+        "kcal": 87.0,
+        "protein_g": 4.0,
+        "fat_g": 1.0,
+        "carbohydrate_g": 12.0,
+        "sodium_mg": 2.0,
+        "calcium_mg": 10.0,
+        "sodium_level": "钠含量一般"
+      },
+      "comboNutritionAggregate": null,
+      "composition": "",
+      "swapOptions": [],
+      "hasDetail": false
+    },
+    {
+      "code": "4810",
+      "name": "薯条",
+      "priceYuan": 14.5,
+      "originalPriceYuan": 14.5,
+      "categories": [
+        "小食甜品/其他"
+      ],
+      "shopTags": [
+        "小食"
+      ],
+      "derivedTags": [
+        "好拿"
+      ],
+      "tags_are_derived": true,
+      "nutrition": {
+        "available": true,
+        "match_type": "fuzzy",
+        "kcal": 106.0,
+        "protein_g": 2.0,
+        "fat_g": 4.0,
+        "carbohydrate_g": 14.0,
+        "sodium_mg": 61.0,
+        "calcium_mg": 6.0,
+        "sodium_level": "钠含量一般"
+      },
+      "comboNutritionAggregate": null,
+      "composition": "",
+      "swapOptions": [],
+      "hasDetail": false
+    },
+    {
+      "code": "9900008752",
+      "name": "派",
+      "priceYuan": 8.0,
+      "originalPriceYuan": 8.0,
+      "categories": [
+        "小食甜品/其他"
+      ],
+      "shopTags": [
+        "派",
+        "第二份优惠"
+      ],
+      "derivedTags": [
+        "好拿"
+      ],
+      "tags_are_derived": true,
+      "nutrition": {
+        "available": true,
+        "match_type": "fuzzy",
+        "kcal": 232.0,
+        "protein_g": 2.0,
+        "fat_g": 12.0,
+        "carbohydrate_g": 28.0,
+        "sodium_mg": 159.0,
+        "calcium_mg": 7.0,
+        "sodium_level": "钠含量一般"
+      },
+      "comboNutritionAggregate": null,
+      "composition": "",
+      "swapOptions": [],
+      "hasDetail": false
+    },
+    {
+      "code": "507387",
+      "name": "卡布奇诺",
+      "priceYuan": 21.0,
+      "originalPriceYuan": 21.0,
+      "categories": [
+        "麦咖啡™"
+      ],
+      "shopTags": [
+        "麦咖啡™咖啡"
+      ],
+      "derivedTags": [],
+      "tags_are_derived": true,
+      "nutrition": {
+        "available": true,
+        "match_type": "fuzzy",
+        "kcal": 167.0,
+        "protein_g": 9.0,
+        "fat_g": 7.0,
+        "carbohydrate_g": 15.0,
+        "sodium_mg": 88.0,
+        "calcium_mg": 285.0,
+        "sodium_level": "钠含量一般"
+      },
+      "comboNutritionAggregate": null,
+      "composition": "",
+      "swapOptions": [],
+      "hasDetail": false
+    },
+    {
+      "code": "9900004064",
+      "name": "精选单人餐三件套",
+      "priceYuan": 34.5,
+      "originalPriceYuan": 47.0,
+      "categories": [
+        "人气热卖",
+        "精选单人餐"
+      ],
+      "shopTags": [
+        "爆款",
+        "经典精选"
+      ],
+      "derivedTags": [
+        "套餐"
+      ],
+      "tags_are_derived": true,
+      "nutrition": {
+        "available": false,
+        "note": "官方营养库未匹配到该品项，本引擎不做估算。"
+      },
+      "comboNutritionAggregate": null,
+      "composition": "",
+      "swapOptions": [],
+      "hasDetail": false
+    },
+    {
+      "code": "9900004236",
+      "name": "人气超值四件套随心选",
+      "priceYuan": 28.0,
+      "originalPriceYuan": 57.5,
+      "categories": [
+        "精选单人餐"
+      ],
+      "shopTags": [
+        "麦金卡"
+      ],
+      "derivedTags": [
+        "套餐"
+      ],
+      "tags_are_derived": true,
+      "nutrition": {
+        "available": false,
+        "note": "官方营养库未匹配到该品项，本引擎不做估算。"
+      },
+      "comboNutritionAggregate": null,
+      "composition": "",
+      "swapOptions": [],
+      "hasDetail": false
+    }
+  ],
+  "priceCheck": {
+    "howTo": "python scripts/mcd_mcp_client.py price-check --store-code 3350332 --order-type 1 --be-type 1 --items '<下面的 items>'",
+    "items": [
+      {
+        "productCode": "9900005462",
+        "quantity": 1
+      },
+      {
+        "productCode": "9900005453",
+        "quantity": 1
+      },
+      {
+        "productCode": "9900016057",
+        "quantity": 1
+      }
+    ]
+  },
+  "guardrails": {
+    "orderAllowed": false,
+    "note": "本脚本不调用 create-order；下单必须经用户明确确认后由本人/家属完成。",
+    "tagsAreDerived": true,
+    "nutritionIsReferenceOnly": true,
+    "medicalDisclaimer": "营养与钠含量仅供参考，不构成医疗或营养治疗建议。"
+  }
+}

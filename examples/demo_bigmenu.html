@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>麦当劳点餐建议（大字号）</title>
+<style>
+  :root { --ink:#111; --bg:#fff; --line:#111; --hi:#b3001b; }
+  * { box-sizing: border-box; }
+  body { margin:0 auto; max-width:760px; padding:24px 20px 64px;
+         background:var(--bg); color:var(--ink);
+         font-family:"PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+         font-size:24px; line-height:1.7; -webkit-text-size-adjust:100%; }
+  h1 { font-size:40px; line-height:1.3; margin:0 0 16px; }
+  .meta { border:3px solid var(--line); border-radius:14px; padding:14px 18px;
+          margin-bottom:24px; font-size:24px; }
+  .meta div { margin:6px 0; }
+  .card { border:3px solid var(--line); border-radius:14px; padding:18px;
+          margin-bottom:20px; break-inside:avoid; }
+  .card h2 { font-size:34px; margin:0 0 12px; line-height:1.35; }
+  ul.lines { margin:0; padding-left:1.2em; }
+  ul.lines li { margin:6px 0; }
+  .swaps { margin-top:14px; border-top:2px dashed var(--line); padding-top:10px; }
+  .swaps p { margin:0 0 6px; font-weight:700; }
+  .swaps ul { margin:0; padding-left:1.2em; }
+  .diff { color:var(--hi); font-weight:700; }
+  footer { margin-top:32px; border-top:3px solid var(--line); padding-top:16px; font-size:22px; }
+  @media (max-width:420px) { body { font-size:22px; } h1 { font-size:32px; } .card h2 { font-size:28px; } }
+</style>
+</head>
+<body>
+  <h1>麦当劳点餐建议<br>（大字号版）</h1>
+  <div class="meta" role="region" aria-label="门店与时段信息">
+    <div><strong>门店：</strong>麦当劳济南大明湖南门IS餐厅</div>
+    <div><strong>营业时间：</strong>07:00-23:00（营业中）</div>
+    <div><strong>当前时段：</strong>正餐/午餐</div>
+  </div>
+  <main role="main">
+      <article class="card" aria-label="套餐、好拿、软｜板烧鸡腿堡三件套">
+        <h2>套餐、好拿、软｜板烧鸡腿堡三件套</h2>
+        <ul class="lines"><li>板烧鸡腿堡三件套（默认搭配）</li><li>里面有 板烧鸡腿堡、中薯条 和 可乐中杯。</li><li>价格 ¥34.5，合计约 827 千卡 / 钠约 1206 毫克</li><li>注意：整份钠已超过成人全天建议上限(2000mg)的一半，建议搭配白水、少蘸酱</li></ul>
+        <div class="swaps"><p>可以换成：</p><ul><li>小杯玉米杯 <span class="diff">- ¥1.5</span></li><li>无糖可口可乐中杯 <span class="diff">+ ¥0</span></li><li>雪碧中杯 <span class="diff">+ ¥0</span></li></ul></div>
+      </article>
+      <article class="card" aria-label="套餐｜麦香鸡套餐">
+        <h2>套餐｜麦香鸡套餐</h2>
+        <ul class="lines"><li>麦香鸡套餐（默认搭配）</li><li>里面有 麦香鸡、中薯条 和 可乐中杯。</li><li>价格 ¥27.5，合计约 805 千卡 / 钠约 896 毫克</li></ul>
+        <div class="swaps"><p>可以换成：</p><ul><li>小杯玉米杯 <span class="diff">- ¥1.5</span></li><li>无糖可口可乐中杯 <span class="diff">+ ¥0</span></li><li>雪碧中杯 <span class="diff">+ ¥0</span></li></ul></div>
+      </article>
+      <article class="card" aria-label="儿童、好拿、软｜汉堡开心乐园餐">
+        <h2>儿童、好拿、软｜汉堡开心乐园餐</h2>
+        <ul class="lines"><li>汉堡开心乐园餐（默认搭配）</li><li>里面有 汉堡包、迷你薯条、小杯玉米杯、纯牛奶 和 海绵宝宝×航海王系列玩具。</li><li>价格 ¥23.5，已知 4/5 项合计约 536 千卡（部分子项未匹配到官方营养数据，非整份真实合计）</li></ul>
+        <div class="swaps"><p>可以换成：</p><ul><li>100%苹果汁 <span class="diff">+ ¥0</span></li></ul></div>
+      </article>
+  </main>
+  <footer role="contentinfo">
+    <p><strong>只到这一步，还没有下单。</strong>确认要点的家属或本人，请再明确说一声。</p>
+    <p>餐品、价格、供应状态以麦当劳官方渠道实时结果为准。本工具为非官方工具，输出仅供参考。</p>
+    <p>辣/冰/软/好拿等标签由本工具依据真实菜单名称推导，非麦当劳官方字段；
+       营养数据来自官方营养库，仅供参考，不构成医疗或营养治疗建议。</p>
+  </footer>
+</body>
+</html>

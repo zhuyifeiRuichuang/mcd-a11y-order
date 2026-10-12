@@ -1,0 +1,19 @@
+# 敏感配置：切勿提交真实 Token
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 排障临时产物
+.probe/
+*.log
+
+# 操作系统
+.DS_Store
+Thumbs.db
